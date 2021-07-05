@@ -1,0 +1,84 @@
+/* Common class styles used across all app */
+.h-flex {
+    display: flex;
+    flex-wrap: wrap;
+    /* /* justify-content: center; */
+    /* max-width: 500px;  */
+}
+.h-flex.jc {
+    justify-content: center;
+}
+
+.h-flex.ac {
+    align-items: center;
+}
+.h-flex.sb {
+    justify-content: space-between;
+}
+
+.v-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.v-flex.ac {
+    align-items: center;
+}
+/**************************************/
+
+/* App styles */
+.app {
+    text-align: center;
+}
+
+.app-header {
+    background-color: #222;
+    padding: 20px;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 2;
+    min-height: 150px;
+}
+
+.search-input {
+    width: 50%;
+    margin: 0 20px;
+    border-radius: 2px;
+    border: none;
+    padding: 6px;
+}
+
+.app-content {
+    position: relative;
+    margin-top: 190px;
+    padding: 30px;
+}
+
+.query {
+    font-size: 10px;
+    background: grey;
+    padding: 4px;
+    border-radius: 2px;
+    margin: 0 5px;
+}
+
+.image-item {
+    cursor: pointer;
+    animation: all 0.3s ease-in-out;
+    margin: 8px;
+}
+
+.image-metadata {
+    font-size: 13px;
+    transition: all 0.3s ease-in-out;
+    margin: 20px;
+    color: #FFF;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
